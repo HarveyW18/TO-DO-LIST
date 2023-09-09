@@ -1,0 +1,136 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fffcfc;
+  border-radius: 10px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  text-align: center; 
+  color: green;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+form input[type="text"],
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+#add_task{
+  margin-top: 15px;
+}
+
+form button {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+form button:hover {
+  background-color: rgb(0, 96, 0);
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  align-items: center;
+  justify-content: center;  
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 5px;
+  margin: 5px auto;
+  border-radius: 5px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  position: relative;
+  width: 500px;
+  height: 200px;
+}
+
+li h3 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #000000;
+}
+
+li p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+li form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#trash_button{
+  background-color: red;
+}
+
+#check_button{
+  background-color: green;
+}
+
+#trash_button:hover{
+  background-color: rgb(147, 0, 0);
+}
+
+#check_button:hover{
+  background-color: rgb(0, 96, 0);
+}
+
+
+li button {
+  padding: 5px 10px;
+  background-color: #2478ff;
+  color: #fbf9f9;
+  border-radius: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li button:hover {
+  background-color: #1352b1;
+}
+
+.completed {
+  background-color: #f2f2f2;
+  text-decoration: line-through;
+  color: #2478ff;
+}
